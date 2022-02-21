@@ -38,7 +38,7 @@ uint64_t nextPrime(uint64_t value) {
 
 uint64_t sumPrime(uint64_t hbound) {
 // вставьте код функции
-  int summa = 0;
+  uint64_t summa = 0;
   hbound--;
   for (hbound; hbound > 1; hbound--) {
     if (checkPrime(hbound))
